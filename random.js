@@ -5,7 +5,14 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-    
+makeImage("https://i.ytimg.com/vi/ycNZNMwmWCQ/maxresdefault.jpg",0, 0, 200, 120, 1);
+makeCircle(140,20,20,"black");
+makeCircle(100,40,30, "black");
+makeCircle(60,20,20,"black");
+makeRect(110, 30, 10, 10, "white", 0.8);
+makeRect(80,30,10,10,"white",0.8);
+makeText("____", 75, 50, 20, "Indie Flower", "white", 1.0);
+
 }
 
 
@@ -13,7 +20,7 @@ function createFirstScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-    
+makeCircle(100,40,30,"brown");
 }
 
 
@@ -21,7 +28,7 @@ function createSecondScene() {
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-    
+
 }
 
 
@@ -32,19 +39,18 @@ function createThirdScene() {
 // This function is called whenever you press the "Go!" button.
 function createRandomScene() {
     // Generate a random number between 0 and 1, and store it in a variable.
-    
+    var number = Math.random()
     // If the number is less than 0.33, call the function to create your first scene.
-    
-    
-    
+    if (number < 0.33){
+    createFirstScene()
+    } else if (number < 0.67) {
     // Else, if the number is less than 0.67, call the function to create your second scene.
-    
-    
+    createSecondScene()
+    } else {
     
     // Else, call the function to create your third scene.
-    
-    
-    
+    createThirdScene()
+    }
 }
 
 
@@ -54,7 +60,7 @@ function createRandomScene() {
 // easily create shapes in JavaScript. Feel free
 // to check them out if you're curious how they
 // work, but don't change them!
-// <3 Ms. Squires
+
 function makeCircle(cx, cy, r, fill, opacity) {
   var circle = document.createElementNS(namespace, "circle")
   circle.setAttribute("cx", cx)
