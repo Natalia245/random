@@ -20,7 +20,14 @@ makeText("____", 75, 50, 20, "Indie Flower", "white", 1.0);
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createSecondScene() {
-makeCircle(100,40,30,"brown");
+makeRect(0,0,200,200,"#E7A977",1.0);
+makeCircle(100,40,30,"#93490C");
+makeEllipse(120,50,5,5,"#542601", 1.0);
+makeEllipse(90,30,5,5,"#542601", 1.0);
+    makeEllipse(90,60,2,2,"#542601", 1.0);
+    makeEllipse(110,40,2,2,"#542601", 1.0);
+    makeEllipse(120,20,2,2,"#542601", 1.0);
+    makeEllipse(84,50,3,3,"#542601", 1.0);
 }
 
 
