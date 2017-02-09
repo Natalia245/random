@@ -1,13 +1,18 @@
 @import 'https://fonts.googleapis.com/css?family=Indie+Flower';
 
-h1 {
- color: dimgrey;
-font-family:Indie Flower;
-}
+
 #button-container {
     text-align: center;
 }
 
 h1 {
+    color: black;
+    font-family:Indie Flower;
     text-align: center;
+    background-color: grey;
+    border: 5px dashed black;
+    padding: 10px;
+    margin: 2px;
+    width: 200px;
+
 }
