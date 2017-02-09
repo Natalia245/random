@@ -5,15 +5,22 @@ var namespace = "http://www.w3.org/2000/svg"
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
-makeImage("https://i.ytimg.com/vi/ycNZNMwmWCQ/maxresdefault.jpg",0, 0, 200, 120, 1);
-makeCircle(140,20,20,"grey");
+    makeImage("https://i.ytimg.com/vi/ycNZNMwmWCQ/maxresdefault.jpg",0, 0, 200, 120, 1);
+    makeCircle(140,20,20,"grey");
 makeCircle(100,40,30, "grey");
 makeCircle(60,20,20,"grey");
-makeRect(110, 30, 10, 10, "white", 0.8);
-makeRect(80,30,10,10,"white",0.8);
-makeText("____", 75, 50, 20, "Indie Flower", "white", 1.0);
-    makeText("''", 80, 45, 20, "Indie Flower", "black", 1.0)
-    makeText("''", 110, 45, 20, "Indie Flower", "black", 1.0)
+    makeRect(110, 30, 10, 10, "white", 1.0);
+makeRect(80,30,10,10,"white",1.0);
+    makeText("____", 75, 50, 20, "Indie Flower", "white", 1.0);
+makeText("''", 110, 45, 20, "Indie Flower", "black", 1.0);
+makeText("''", 80, 45, 20, "Indie Flower", "black", 1.0);
+makeText("t", 75, 75, 20, "Indie Flower", "white", 1.0);
+makeText("t", 118, 75, 20, "Indie Flower", "white", 1.0);
+makeText("S", 119, 100, 40, "Indie Flower", "grey", 1.0);
+    makeCircle(100, 90, 25, "grey", 1.0);
+makeCircle(100, 104, 25, "red", 1.0);
+   makeEllipse(90,90,4,6,"white", 1.0);
+makeEllipse(110,90,4,6,"white", 1.0);
 }
 
 
@@ -60,7 +67,7 @@ makeRect(50,25,50,15,"yellow",1.0);
 makeRect(55,15,40,15,"yellow",1.0);
 makeRect(60,5,30,15,"yellow",1.0);
 makeRect(65,0,20,15,"yellow",1.0);
-    makeText("Hey! Listen!", 130, 100, 15, "Indie Flower", "white", 1.0);
+    makeText("Hey! Listen!", 130, 98, 15, "Indie Flower", "white", 1.0);
    
 }
 
