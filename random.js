@@ -35,7 +35,23 @@ makeEllipse(90,30,5,5,"#542601", 1.0);
 // You need to use at least 3 different types of shape.
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createThirdScene() {
-
+makeCircle(0,0,250,"black",1.0);
+makeRect(10,90,50,20,"yellow",1.0);
+makeRect(15,80,40,20,"yellow",1.0);
+makeRect(20,70,30,20,"yellow",1.0);
+makeRect(25,60,20,20,"yellow",1.0);
+    makeRect(30,50,10,20,"yellow",1.0);
+makeRect(90, 90,50,20,"yellow",1.0);
+makeRect(95, 80,40,20,"yellow",1.0);
+makeRect(100, 70,30,20,"yellow",1.0);
+makeRect(105, 60,20,20,"yellow",1.0);
+    makeRect(110, 50,10,20,"yellow",1.0);
+makeRect(45,35,60,15,"yellow",1.0);
+makeRect(50,25,50,15,"yellow",1.0);
+makeRect(55,15,40,15,"yellow",1.0);
+makeRect(60,5,30,15,"yellow",1.0);
+makeRect(65,0,20,15,"yellow",1.0);
+    makeText("Hey! Listen!", 130, 100, 15, "Indie Flower", "white", 1.0);
 }
 
 
