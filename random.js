@@ -6,13 +6,14 @@ var namespace = "http://www.w3.org/2000/svg"
 // Remember, for the shapes to show up on the canvas, you'll need to CALL the function.
 function createFirstScene() {
 makeImage("https://i.ytimg.com/vi/ycNZNMwmWCQ/maxresdefault.jpg",0, 0, 200, 120, 1);
-makeCircle(140,20,20,"black");
-makeCircle(100,40,30, "black");
-makeCircle(60,20,20,"black");
+makeCircle(140,20,20,"grey");
+makeCircle(100,40,30, "grey");
+makeCircle(60,20,20,"grey");
 makeRect(110, 30, 10, 10, "white", 0.8);
 makeRect(80,30,10,10,"white",0.8);
 makeText("____", 75, 50, 20, "Indie Flower", "white", 1.0);
-
+    makeText("''", 80, 45, 20, "Indie Flower", "black", 1.0)
+    makeText("''", 110, 45, 20, "Indie Flower", "black", 1.0)
 }
 
 
@@ -28,6 +29,14 @@ makeEllipse(90,30,5,5,"#542601", 1.0);
     makeEllipse(110,40,2,2,"#542601", 1.0);
     makeEllipse(120,20,2,2,"#542601", 1.0);
     makeEllipse(84,50,3,3,"#542601", 1.0);
+    makeCircle(30,20,10,"white");
+    makeCircle(30,99,10,"white");
+  makeCircle(140,10,10,"white");
+      makeCircle(160,78,10,"white");
+      makeCircle(38,48,5,"white");
+      makeCircle(70,95,5,"white");
+      makeCircle(170,37,6,"white");
+makeText("Cookie? <3", 130, 100, 15, "Indie Flower", "white", 1.0);
 }
 
 
@@ -52,6 +61,7 @@ makeRect(55,15,40,15,"yellow",1.0);
 makeRect(60,5,30,15,"yellow",1.0);
 makeRect(65,0,20,15,"yellow",1.0);
     makeText("Hey! Listen!", 130, 100, 15, "Indie Flower", "white", 1.0);
+   
 }
 
 
